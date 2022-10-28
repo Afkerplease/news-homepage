@@ -4,7 +4,7 @@ import menuLogo from "../assets/images/icon-menu.svg";
 import menuClose from "../assets/images/icon-menu-close.svg";
 
 function Navbar() {
-  const [isClicked, setIsClicked] = useState(true);
+  const [isClicked, setIsClicked] = useState(false);
   return (
     <nav className="flex justify-between relative items-center pt-5 md:pt-20">
       <img src={logo} alt="" />
