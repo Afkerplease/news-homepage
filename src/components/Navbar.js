@@ -53,7 +53,7 @@ function Navbar() {
         <div className="bg-black absolute w-[375px] h-[1590px] opacity-[0.6]  "></div>
       )}
       {isClicked && (
-        <div className=" bg-white z-10 p-5 flex flex-col w-[300px] h-[700px] absolute right-0 top-0 ">
+        <div className=" bg-white z-10 p-5 flex flex-col w-[300px] h-[2000px] absolute right-0 top-0 ">
           <button
             className="self-end "
             onClick={() => {
