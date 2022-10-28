@@ -4,31 +4,32 @@ import web3pc from "../assets/images/image-web-3-desktop.jpg";
 
 function Grid() {
   return (
-    <div className="mt-5 grid md:grid-cols-3 md:grid-rows-2">
-      <picture className=" col-start-1 col-end-3 ">
-        <source media="(min-width:768px )" srcset={web3pc} sizes="" />
-        <img src={web3mobile} alt="" />
-      </picture>
-      {/* bright future grid */}
-      <div className="mt-4 md:flex  ">
-        <div>
-          <h1 className=" text-[2.9rem] font-[800] text-Verydarkblue leading-[3rem] mb-4 ">
-            The Bright Future of the web 3.0?
-          </h1>
+    <div className="mt-5 grid md:grid-cols-2 md:grid-rows-1 gap-4">
+      <div className=" col-start-1 col-end-3 ">
+        <picture className=" ">
+          <source media="(min-width:768px )" srcSet={web3pc} sizes="" />
+          <img src={web3mobile} alt="" />
+        </picture>
+        {/* bright future grid */}
+        <div className="mt-4 md:grid md:grid-cols-2 gap-4  ">
+          <div>
+            <h1 className=" text-[2.9rem] font-[800] text-Verydarkblue leading-[3rem] mb-4 ">
+              The Bright Future of the web 3.0?
+            </h1>
+          </div>
+          <div className="  ">
+            <p>
+              We dive into the next evolution of the web that claims to put the
+              power of the platforms back into the hands of the people. But is
+              it really fulfilling its promise?
+            </p>
+            <button className="bg-Softred py-4 px-10 text-white uppercase font-[400] tracking-[0.2rem]  mt-5 ">
+              Read More
+            </button>
+          </div>
         </div>
-        <div>
-          <p>
-            We dive into the next evolution of the web that claims to put the
-            power of the platforms back into the hands of the people. But is it
-            really fulfilling its promise?
-          </p>
-          <button className="bg-Softred py-4 px-10 text-white uppercase font-[400] tracking-[0.2rem]  mt-5 ">
-            Read More
-          </button>
-        </div>
+        {/* bright future grid */}
       </div>
-
-      {/* bright future grid */}
       {/* New div information */}
       <div className=" bg-Verydarkblue p-5 mt-20 col-start-3 col-end-4 row-start-1 row-end-2 md:mt-0 ">
         <h2 className="text-Softorange text-[2rem] mb-2 font-[800] ">New</h2>
