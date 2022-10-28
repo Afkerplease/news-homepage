@@ -16,7 +16,7 @@ module.exports = {
         Inter: ["Inter"],
       },
       gridTemplateColumns: {
-        "grid-speciale": "repeat(2,minmax(1000px,1fr) ) ",
+        "grid-speciale": "repeat(2,minmax(500px,1fr) ) ",
       },
     },
   },
